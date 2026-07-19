@@ -9,12 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^6.0.1",
-    "vite": "^8.0.10",
+    "@vitejs/plugin-react": "^5.0.4",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "vite": "^6.4.3"
   },
-  "devDependencies": {},
   "engines": {
     "node": "22.x"
   }
