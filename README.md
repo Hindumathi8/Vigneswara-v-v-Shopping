@@ -183,3 +183,4 @@ python3 app.py
 - Backend settings now includes `shop_address`.
 - Frontend includes improved search, attractive offers section, AI help bot, and shop address display.
 # VVV-Shop
+# Vigneswara-v-v-Shopping
