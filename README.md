@@ -182,3 +182,4 @@ python3 app.py
 - Backend `/shop-info` API added with shop address: Sanivarapupeta, Eluru, Andhra Pradesh - 534003.
 - Backend settings now includes `shop_address`.
 - Frontend includes improved search, attractive offers section, AI help bot, and shop address display.
+# VVV-Shop
