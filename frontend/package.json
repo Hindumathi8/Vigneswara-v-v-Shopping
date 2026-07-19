@@ -3,7 +3,19 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": {"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview"},
-  "dependencies": {"@vitejs/plugin-react":"^6.0.1","vite":"^8.0.10","react":"^19.2.5","react-dom":"^19.2.5"},
-  "devDependencies": {}
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.10",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "22.x"
+  }
 }
