@@ -5,8 +5,7 @@
       "framework": "vite"
     },
     "backend": {
-      "root": "backend",
-      "framework": "flask"
+      "root": "backend"
     }
   },
   "rewrites": [
@@ -23,30 +22,6 @@
         "type": "service",
         "service": "frontend"
       }
-    }
-  ]
-}{
-  "builds": [
-    {
-      "src": "backend/app.py",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "backend/app.py"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "frontend/$1"
     }
   ]
 }
