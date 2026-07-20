@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './style.css';
 import logo from './assets/logo.jpeg';
 
-const API_BASES = ['/api'];
+const API_BASES = ['https://vigneswara-v-v-shopping.onrender.com'];
 
 const DEFAULT_TYPES = ['All Sarees','Silk Saree','Pattu Saree','Cotton Saree','Kanchi Pattu','Banarasi Saree','Wedding Saree','Party Wear Saree','Half Saree','Organza Saree','Georgette Saree','Chiffon Saree','Linen Saree','Designer Saree','Daily Wear Saree','Kalamkari Saree','Printed Saree','Embroidery Saree','Soft Silk Saree','Fancy Saree','Mysore Silk Saree','Paithani Saree','Bandhani Saree','Patola Saree','Sambalpuri Saree','Kerala Kasavu Saree','Tissue Saree','Tussar Silk Saree','Uppada Saree','Gadwal Saree','Dharmavaram Saree'];
 const DEFAULT_SETTINGS = {
